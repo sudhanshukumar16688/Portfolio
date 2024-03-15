@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudhanshu_Developer Portfolio</title>
+
+    <!-- This is internal css -->
+    <style>
+        /* This is header section  */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(24, 24, 97);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(148, 182, 211);
+            font-size: 1.02rem;
+
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        /* This is main section  */
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 23px 0;
+        }
+
+        .firstsection>div {
+            width: 40%;
+            text-align: left;
+            margin: 30px 0;
+
+        }
+
+        .leftsection {
+            padding-top: 20px;
+            margin: 5px 10px;
+            font-size: 2.5rem;
+
+        }
+
+        .leftsection button {
+            padding: 50px 0;
+        }
+
+        .leftsection .btn {
+            padding: 8px;
+            background-color: #6b66c8;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 15px;
+            cursor: pointer;
+
+        }
+
+        .rightsection img {
+            background-color: rgb(0, 0, 33);
+            width: 80%;
+            margin: 10px 20px;
+        }
+
+        .purple {
+            color: rgb(0, 140, 255);
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(0, 140, 255);
+            font-size: 2.5rem;
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 40vw;
+        }
+
+        .secondsection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondsection .box {
+            background: rgb(42, 187, 16);
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondsection .vertical {
+            height: 83px;
+            width: 2px;
+            background-color: rgb(200, 25, 25);
+            margin: 2px 90px;
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+
+        /* This is vertical section  */
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            right: 5px;
+            width: 4px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 8px;
+        }
+
+        /* This ia footer section  */
+        .footer {
+            background-color: rgb(17, 29, 56);
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 13px 50px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 123px;
+        }
+
+        .footer-rights {
+            text-align: center;
+            color: gray;
+            padding-top: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Sudhanshu's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About us</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">Hey My Name is <span class="purple">Sudhanshu</span><br>
+                <div>And I am a passionate</div>
+                <span id="element"></span><br><br>
+                <button class="btn">Download Resume</button>
+                <button class="btn">Visit Github</button>
+
+            </div>
+            <div class="rightsection">
+                <img src="./bg1.png" alt="img">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="bg3.png" alt="">
+                    <div class="vertical-title">
+                        Web Developer(2021-2022)
+                    </div>
+                    <div class="vertical-desc">
+                        Hey My name is sudhanshu kumar and I am pursuing in under-graduate. my college name catlyst
+                        institute of management and advance global excellance.and university name is patliputra. So i
+                        learnning web developer.and i joined CCBP 4.0 academy.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="bg6.png" alt="">
+                    <div class="vertical-title">
+                        Android App Developer(2022-2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Hey My name is sudhanshu kumar and I am pursuing in under-graduate. my college name catlyst
+                        institute of management and advance global excellance.and university name is patliputra. So i
+                        learnning Android App developer.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="bg5.png" alt="">
+                    <div class="vertical-title">
+                        Youtuber(2020-2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Hey guys my name is sudhanshu kartib.So I am part time youtuber.my channel name is "kartib
+                        vlogs"and "SR Animate".so i am daily mini short vlog uploaded video on youttube. Lorem ipsum
+                        dolor sit amet, consectetur adipisicing elit. Corrupti natus velit, animi ratione repellat vero?
+                        Lorem ipsum dolor sit amet.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="bg4.png" alt="">
+                    <div class="vertical-title">
+                        Facebook Pager(2024-present)
+                    </div>
+                    <div class="vertical-desc">
+                        Hey guys my name is sudhanshu kartib.So I am part time facebook pager.my facebook page name is
+                        "kartib
+                        vlogs" and "SR Animate".so i am daily mini short vlog uploaded video on facebook page.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dolorem tenetur mollitia atque
+
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="bg2.png" alt="">
+                    <div class="vertical-title">
+                        Video Editor(2020-Present)
+                    </div>
+                    <div class="vertical-desc">
+                        Hey guys my name is sudhanshu kumar and i am a video creator. part time work. so i am a youtuber
+                        and facebook pager. i do creat a video and i uploaded on youtube and facebook page
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dolorem tenetur mollitia atque
+                        consectetur fuga illum deserunt asperiores. Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Et, accusamus.
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </main>
+    <!-- This is footer section  -->
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Sudhanshu's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About us</li>
+                    <li>Services</li>
+                    <li>Contact me</li>
+                </ul>
+
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About us</li>
+                    <li>Services</li>
+                    <li>Contact me</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About us</li>
+                    <li>Services</li>
+                    <li>Contact me</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-rights">
+            www.sudhanshuportfolio.com | All rights reserved
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web developer', 'Android app developer', 'Youtuber', 'Facebook pager', 'Video editor!'],
+            typeSpeed: 50,
+        });
+    </script>
+
+
+
+</body>
+
+</html>
